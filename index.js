@@ -81,18 +81,16 @@ module.exports = function GrottoOfLostSoulsGuide(mod) {	// 定义变量
 		levelMsg = [],									// 充能文字 数组
 		powerMsg = '';									// 充能文字
 
-	mod.command.add(['殿堂', 'gls'], (arg) => {
+	mod.command.add('殿堂', (arg) => {
 		if (!arg) {
 			enabled = !enabled;
 			mod.command.message('辅助提示 ' + (enabled ? '启用'.clr('56B4E9') : '禁用'.clr('E69F00')));
 		} else {
 			switch (arg) {
-				case "party":
 				case "组队":
 					sendToParty = !sendToParty;
 					mod.command.message('发送通知 ' + (sendToParty ? '组队'.clr('56B4E9') : '自己'.clr('E69F00')));
 					break;
-				case "proxy":
 				case "代理":
 					streamenabled = !streamenabled;
 					mod.command.message('代理频道 ' + (streamenabled ? '启用'.clr('56B4E9') : '禁用'.clr('E69F00')));
