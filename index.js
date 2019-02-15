@@ -112,7 +112,7 @@ module.exports = function GrottoOfLostSoulsGuide(mod) {	// 定义变量
 		}
 	});
 
-	mod.hook('S_LOGIN', 10, sLogin)
+	mod.hook('S_LOGIN', 12, sLogin)
 	mod.hook('S_LOAD_TOPO', 3, sLoadTopo);
 	// 获取 登入角色信息
 	function sLogin(event) {
@@ -141,7 +141,7 @@ module.exports = function GrottoOfLostSoulsGuide(mod) {	// 定义变量
 	function load() {
 		if (!hooks.length) {
 			hook('S_BOSS_GAGE_INFO', 3, sBossGageInfo);		// 获取 大型怪物血量信息
-			hook('S_ACTION_STAGE', 8, sActionStage);		// 获取 周围全部[攻击动作]事件
+			hook('S_ACTION_STAGE', 9, sActionStage);		// 获取 周围全部[攻击动作]事件
 
 			function sBossGageInfo(event) {
 				if (!insidemap) return;
