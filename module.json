@@ -1,12 +1,12 @@
 {
-	"disableAutoUpdate": false,
-	"name": "GLS-Guide",
-	"options": {
-		"niceName": "GLS-Guide",
-		"guiName": "GLS-Guide"
-	},
-	"author": "ZC",
-	"description": "里安地下殿堂",
-	"servers": ["https://raw.githubusercontent.com/zc149352394/GLS-Guide/master/"],
-	"supportUrl": "https://github.com/zc149352394/GLS-Guide/issues"
+    "disableAutoUpdate": false,
+    "name": "GLS-Guide",
+    "options": {
+        "niceName": "GLS-Guide",
+        "guiName": "GLS-Guide"
+    },
+    "author": "ZC",
+    "description": "里安地下殿堂",
+    "servers": ["https://raw.githubusercontent.com/zc149352394/GLS-Guide/master/"],
+    "supportUrl": "https://github.com/zc149352394/GLS-Guide/issues"
 }

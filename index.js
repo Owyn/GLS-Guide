@@ -136,7 +136,7 @@ module.exports = function GrottoOfLostSoulsGuide(mod) {	// 定义变量
 		} else {
 			unload();
 		}
-    }
+	}
 	// 加载 获取信息
 	function load() {
 		if (!hooks.length) {
@@ -400,7 +400,7 @@ module.exports = function GrottoOfLostSoulsGuide(mod) {	// 定义变量
 
 		// 龙头光柱
 		curLocation.z = curLocation.z - 1000;
-		mod.send('S_SPAWN_DROPITEM', 6, {
+		mod.send('S_SPAWN_DROPITEM', 7, {
 			gameId: uid2,
 			item: 98260, // 98260-古龙贝勒古斯的头
 			loc: curLocation,
