@@ -1,12 +1,14 @@
-GLS-Guide
-======
+# gls-guide
+Guide for Grotto of Lost Souls.
 
-下级 / 上级 / 7人
+## Commands
+### `gls`
+- Toggle off/on (Default on)
 
-------
+### `gls party`
+- Toggle sending messages to party (Default off)
 
-/8频道 键入命令 | 效果说明
---- | ---
-殿堂 | 开启/关闭模组
-殿堂 组队 | 切换提示文发送频道: 真实组队/仅自己可见(默认)
-殿堂 代理 | 关闭队长通知, 并将消息发送到代理频道
+### `gls proxy`
+- Toggles Stream Mode (Default off)
+- Send messages to proxy channel instead of as notices
+- Does not spawn signs or flowers

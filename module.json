@@ -1,16 +1,11 @@
 {
-    "disableAutoUpdate": false,
-    "name": "GLS-Guide",
-    "options": {
-        "niceName": "殿堂辅助",
-        "guiName": "殿堂辅助",
-        "settingsFile": "config.json",
-        "settingsMigrator": "settings_migrator.js",
-        "settingsVersion": 1
-    },
-    "author": "ZC",
-    "description": "里安地下殿堂",
-    "servers": ["https://raw.githubusercontent.com/zc149352394/GLS-Guide/master/"],
-    "supportUrl": "https://github.com/zc149352394/GLS-Guide/issues",
-    "version": "80.04"
+	"disableAutoUpdate": false,
+	"name": "GLS-Guide",
+	"author": "Owyn",
+	"description": "Guide for Grotto of Lost Souls",
+	"options": {
+		"niceName": "GLS-Guide"
+	},
+	"servers": ["https://raw.githubusercontent.com/Owyn/gls-guide/master/"],
+	"supportUrl": "https://github.com/Owyn/gls-guide/issues"
 }

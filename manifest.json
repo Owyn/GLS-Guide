@@ -1,20 +1,24 @@
 {
-    "files": {
-        "README.md": "ab57c183f149ba3b0292a4658a1ad9474ef0ca963a1b6b861d42dcb07b74fa6d",
-        "index.js": "8e0fa2eca8778d5dc3571582a0498cb656b0c14e38b17dcfa05a8c24cb539d32",
-        "module.json": "da97a4ebfdf2e9d449734f9afd04e27f5c6f853a4d08dcec1661240a67545d35",
-        "settings_migrator.js": "a8040ec1ac1ac5c9decdcbdc7ebe148b5ff762dddb05e76de765fbf75465a509"
-    },
-    "defs": {
-        "C_CHAT": 1,
-        "S_ACTION_STAGE": 9,
-        "S_BOSS_GAGE_INFO": 3,
-        "S_CHAT": 2,
-        "S_DESPAWN_BUILD_OBJECT": 2,
-        "S_DESPAWN_COLLECTION": 2,
-        "S_DESPAWN_DROPITEM": 4,
-        "S_SPAWN_BUILD_OBJECT": 2,
-        "S_SPAWN_COLLECTION": 4,
-        "S_SPAWN_DROPITEM": 7
-    }
+	"files": {
+		"LICENSE": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+		"README.md": "9526449139e515321d3a2bbd9de5aa82dc7afa6159884b01e553335fe10e76c3",
+		"config.json": "699f7c4dcbb573b4faa936d385e1863c0e3da18b68f1c1cadb152d269132627f",
+		"index.js": "c30ff464bc3809890fdfc3bc5bf6fa328e94cfa855f098f1a7112c04e1a0474b",
+		"module.json": "935b2ce55ba18587ebeb1487cf3d2c79f15fd23791ae4ae3e24a7476f6f5f0ac"
+	},
+	"defs": {
+		"C_CHAT": 1,
+		"S_ACTION_STAGE": 9,
+		"S_BOSS_GAGE_INFO": 3,
+		"S_CHAT": 2,
+		"S_DESPAWN_BUILD_OBJECT": 2,
+		"S_DESPAWN_COLLECTION": 2,
+		"S_DESPAWN_DROPITEM": 4,
+		"S_DUNGEON_EVENT_MESSAGE": 2,
+		"S_LOAD_TOPO": 3,
+		"S_LOGIN": 12,
+		"S_SPAWN_BUILD_OBJECT": 2,
+		"S_SPAWN_COLLECTION": 4,
+		"S_SPAWN_DROPITEM": 7
+	}
 }
