@@ -13,7 +13,7 @@ module.exports = function GrottoOfLostSoulsGuide(mod) {
 		if (options) {
 			const settingsVersion = options.settingsVersion
 			if (settingsVersion) {
-				mod.settings = require('./' + (options.settingsMigrator || 'module_settings_migrator.js'))(mod.settings._version, settingsVersion, mod.settings)
+				mod.settings = require('./' + (options.settingsMigrator || 'settings_migrator.js'))(mod.settings._version, settingsVersion, mod.settings)
 				mod.settings._version = settingsVersion
 			}
 		}
