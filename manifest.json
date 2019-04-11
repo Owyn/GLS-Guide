@@ -1,8 +1,9 @@
 {
     "files": {
-        "README.md": "d603eff40738ffce732284897b9a9113b6ef8e60571a5a54dda259cfb59cda87",
-        "index.js": "3b2fc6cf7c3e0fef88ad038bbfa009daa3082d96bf84d7314b840f8c46e1a490",
-        "module.json": "d90f50409254bd35e5bae2c623fb783138d6a59744f9b4a0c79098cbf4b6380d"
+        "README.md": "ab57c183f149ba3b0292a4658a1ad9474ef0ca963a1b6b861d42dcb07b74fa6d",
+        "index.js": "57ae4661c93db9e9139b48056b86edaf41b6f8ace7e0f1433cd091206e6d7aa0",
+        "module.json": "da97a4ebfdf2e9d449734f9afd04e27f5c6f853a4d08dcec1661240a67545d35",
+        "settings_migrator.js": "a8040ec1ac1ac5c9decdcbdc7ebe148b5ff762dddb05e76de765fbf75465a509"
     },
     "defs": {
         "C_CHAT": 1,
@@ -12,8 +13,6 @@
         "S_DESPAWN_BUILD_OBJECT": 2,
         "S_DESPAWN_COLLECTION": 2,
         "S_DESPAWN_DROPITEM": 4,
-        "S_LOAD_TOPO": 3,
-        "S_LOGIN": 12,
         "S_SPAWN_BUILD_OBJECT": 2,
         "S_SPAWN_COLLECTION": 4,
         "S_SPAWN_DROPITEM": 7
