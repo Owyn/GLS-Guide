@@ -415,8 +415,8 @@ module.exports = function GrottoOfLostSoulsGuide(mod) {
 			loc: bossCurLocation,
 			w: r,
 			unk: 0,
-			ownerName: 'prompt',
-			message: 'Prompt area'
+			ownerName: 'SAFE',
+			message: 'SAFE'
 		});
 
 		bossCurLocation.z = bossCurLocation.z - 100;
@@ -426,7 +426,7 @@ module.exports = function GrottoOfLostSoulsGuide(mod) {
 			item: 88850,
 			amount: 1,
 			expiry: 6000,
-			owners: [{ playerId: uid2 }],
+			owners: [{ playerId: 0 }],
 			ownerName: "Dragon"
 		});
 		setTimeout(DespawnThing, times, uid1, uid2);
