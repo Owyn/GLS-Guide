@@ -419,7 +419,7 @@ module.exports = function GrottoOfLostSoulsGuide(mod) {
 			message: 'SAFE'
 		});
 
-		bossCurLocation.z = bossCurLocation.z - 100;
+		//bossCurLocation.z = bossCurLocation.z - 100;
 		mod.send('S_SPAWN_DROPITEM', 7, {
 			gameId: uid2,
 			loc: bossCurLocation,
