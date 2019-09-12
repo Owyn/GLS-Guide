@@ -365,9 +365,9 @@ module.exports = function GrottoOfLostSoulsGuide(mod) {
 		} else if (streamenabled) {
 			mod.command.message(msg);
 		} else {
-			mod.send('S_CHAT', 2, {
+			mod.send('S_CHAT', 3, {
 				channel: 21, //21 = p-notice, 1 = party
-				authorName: 'DG-Guide',
+				name: 'DG-Guide',
 				message: msg
 			});
 		}
