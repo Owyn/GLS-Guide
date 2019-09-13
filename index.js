@@ -420,7 +420,7 @@ module.exports = function GrottoOfLostSoulsGuide(mod) {
 		});
 
 		//bossCurLocation.z = bossCurLocation.z - 100;
-		mod.send('S_SPAWN_DROPITEM', 7, {
+		mod.send('S_SPAWN_DROPITEM', 8, {
 			gameId: uid2,
 			loc: bossCurLocation,
 			item: 88850,
